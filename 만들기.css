@@ -1,0 +1,133 @@
+
+body {
+    display: block;
+    background-color:rgb(240,240,240);
+   
+    
+}
+header{
+    display: grid;
+    font-size: 30px;
+    font-family: cursive;
+    text-align:center;
+    margin: 1px 50px 1px 50px ;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+
+}
+
+main {
+    margin: auto;
+    width: 240px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    
+
+
+}
+article.front1{
+    display: block;
+    word-break: keep-all;
+    /* 한글로 작성, 깨지지 않도록 만드는 문법 */
+
+}
+form{
+    display: block;
+}
+
+form:nth-child(1){
+    margin-left: 17.2px;
+}
+form:nth-child(2){
+    margin-left: 17.2px;
+    padding-bottom: 20px;
+}
+
+
+.hr1{
+   border-bottom: 2px solid gray;
+   width: 90px;
+    height: 20px;
+    float: left;
+    margin: 5px 0px 0px 3px;
+}
+.pcover{
+    width:20px;
+    height:20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px;
+}
+.hr2{
+    border-bottom: 2px solid gray;
+    width: 90px;
+    height: 20px;
+    display: inline-flex;
+    margin:0px 0px 5px 0px;
+
+}
+.container{
+    
+    text-align: center;
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+    /* 링크밑줄해제 */
+    color: #0000FF;
+
+}
+.item1{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+   
+}
+.item2{
+    font-size: 10px;
+
+}
+article.front2{
+    width: 240px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #bebebe;
+    justify-content: center;
+    align-items: center;
+    word-break: keep-all;
+    display: flex;
+    border-radius: 5px;
+    
+}
+.item3{
+ font-size: 13px;
+ font-weight:200
+}
+.item4{
+    font-size: 15px;
+    color:#0000CD ;
+}
+article.front4{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+p{
+    text-align: center;
+    font-size: 11px;
+    color:#787878;
+    margin:20px
+    
+}
+footer{
+  color: gray;
+    font-size: 10px;
+    word-spacing: 5px;
+}
